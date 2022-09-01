@@ -1,0 +1,192 @@
+/* Reset */
+* {
+    border: 0;
+    padding: 0;
+}
+
+/* Body */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: azure;
+}
+/* Header */
+#logo img {
+    padding: 10px;
+    width: 30%;
+}
+#nav-container {
+    display: flex;
+    justify-content: space-between;
+}
+#links {
+    display: flex;
+    /* display: inline-block; */
+    text-decoration: none;
+}
+.nav-link {
+    text-decoration: none;
+    display: inline-block;
+    width: 100px;
+
+    margin-right: 2rem;
+
+}
+
+/* Main */
+.email-section {
+    text-align: center;
+}
+form {
+    padding: 10px;
+}
+form {
+    padding-top: 0px;
+    margin-top: 0px;
+}
+#email {
+    margin-bottom: 20px;
+    border: 1px solid black;
+    width: 300px;
+    height: 30px;
+    padding-left: 10px;
+}
+#submit {
+    font-weight: 900;
+    margin: 20px;
+    MARGIN-TOP: 0PX;
+    padding: 10px;
+    background-color: yellow;
+}
+#submit:hover {
+    background-color: orange;
+    cursor: pointer;
+}
+
+.container{
+    display: flex;
+
+    flex-direction: column;
+
+    margin-top: 2rem;
+
+    justify-content: center;
+
+    align-items: center;
+
+    
+}
+
+.features-container {
+    max-width: 900px;
+
+    margin: auto;
+
+    margin-bottom: 2rem;
+}
+
+.features-container > *:not(:first-child) {
+    margin-top: 1rem;
+
+}
+
+.feature-row {
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    gap: 5rem;
+}
+
+.feature-row svg {
+    width: 150px;
+
+    height: auto;
+}
+
+.row{
+    display: flex;
+
+    justify-content: space-between;
+
+    width: 1000px;
+
+    padding: 30px;
+
+}
+
+.img{
+    width: 100px;
+
+    height: 30px;
+}
+
+.video-frame{
+    margin-top: 3rem;
+
+    margin-bottom: 2rem;
+}
+svg{
+    color: rgb(229, 163, 11);
+}
+
+
+#mycontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.myholder{
+    border: 1px solid black;
+    width: 300px;
+    padding-bottom: 10px;
+    border-radius: 2px;
+}
+.head{
+    background-color: grey;
+    font-weight: 500;
+    font-size: large;
+    text-align: center;
+    width: 100%;
+     margin: auto; 
+    padding-top: 10px;
+    padding-bottom:10px;  
+}
+h3{
+    text-align: center;
+}
+p{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.p{
+    padding-bottom: 20px;
+}
+.btn{
+    background-color: yellow;
+    font-size: medium;
+    width: 40%;
+    padding: 10px;
+}
+footer{
+    background-color:grey;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top:5px ; 
+    padding-bottom:5px;
+    margin-top: 20px;
+}
+#list {
+    margin-left: 50rem;
+}
+#list li{
+    display: inline-block;
+    padding-right: 10px;
+}
+#copy{
+    margin-left: 45rem;
+}
